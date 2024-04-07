@@ -18,6 +18,7 @@ function App() {
         </ul>
       </nav>
       <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Certifications" element={<Certification />} />
           <Route path="/Education" element={<Education />} />
