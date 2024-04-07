@@ -1,0 +1,31 @@
+.project-container {
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 100px;
+  }
+  
+  .project-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .projects {
+    display: flex;
+    flex-direction: column; /* Change flex direction to column */
+  }
+  
+  .project-card {
+    width: 100%; /* Make each project card occupy full width */
+    margin-bottom: 30px; /* Add some space between project cards */
+    background-color: rgba(255, 255, 255, 0.8); /* Set background color with transparency */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    padding: 20px; /* Add padding for content spacing */
+  }
+  
+  .project-card .MuiButton-root {
+    margin-top: 20px; /* Add top margin to GitHub button */
+  }
+  .project-card .MuiTypography-body2 {
+    margin-top: 10px; /* Add space between title and description */
+    font-size: 16px; /* Increase text size of description */
+  }

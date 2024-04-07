@@ -1,0 +1,63 @@
+/* Certification.scss */
+
+.certification-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* This will make the container take the full height of the viewport */
+  }
+  
+  .certification-list {
+    width: 100%; /* Make the list take full width */
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .certification-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border-radius: 8px;
+    margin-bottom: 10px;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .certification-avatar {
+    width: 60px; /* Adjust the size of the avatar */
+    height: 60px; /* Adjust the size of the avatar */
+    border-radius: 50%; /* Make it circular */
+    margin-right: 20px;
+    background-size: cover; /* Cover the entire avatar */
+    background-position: center; /* Center the background image */
+  }
+  
+  .certification-item img {
+    display: none; /* Hide the image element */
+  }
+  .certification-name {
+    font-weight: bold;
+    color: #ffffff; /* Darker text color */
+  }
+  
+/* Certification.scss */
+
+.certification-download {
+    margin-left: auto;
+    padding: 8px 16px; /* Add padding to create button-like appearance */
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set text color to white */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .certification-download:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+h2{
+    color:white
+}
